@@ -6,14 +6,14 @@ int main(){
 	printf("enter your no.");
 	scanf("%d",&a);
 	
-	if(a==0){
-		printf("given no. is neutral");
+	if(a>0){
+		printf("given no. is not neutral");
 	}
 	else if(a<0){
 		printf("given no. is not neutral");
 	}
 	else{
-		printf("given no. is not neutral");
+		printf("given no. is neutral");
 	}
 	return 0;
 }
